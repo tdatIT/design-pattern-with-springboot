@@ -1,0 +1,3 @@
+
+# Test api: Abstract Factory
+GET http://localhost:8080/rest/v1/vehicles/car/mega
