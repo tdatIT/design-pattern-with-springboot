@@ -2,7 +2,6 @@ package com.patternapp.decorator.model;
 
 import lombok.Data;
 
-@Data
 public class ToyotaCamry implements ICar {
     @Override
     public double info() {

@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/v1/design-pattern")
 public class CarDecoratorController {
 
-
     @PostMapping("/order-car-decorator")
     public ResponseEntity<String> orderCar(@RequestBody OrderBody body) {
         double price = 0D;

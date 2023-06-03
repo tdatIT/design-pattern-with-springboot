@@ -2,7 +2,7 @@ package com.patternapp.decorator.model;
 
 import lombok.Data;
 
-@Data
+
 public class KiaMorning implements ICar {
     @Override
     public double info() {
